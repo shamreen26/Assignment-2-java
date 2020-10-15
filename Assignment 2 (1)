@@ -3,13 +3,14 @@ public class Marks
 { 
 public static void main(String args[]) 
 { 
+
 /* This program assumes that the student has 5 subjects,
 thats why I have created the array of size 5. You can
 change this as per the requirement. */
 
 int marks[] = new int[5]; 
 int i; 
-float total=0, avg; 
+float total=0, average; 
 Scanner scanner = new Scanner(System.in);
 
 for(i=0; i<5; i++) 
@@ -22,24 +23,24 @@ scanner.close();
 
 //Calculating average here
 
-avg = total/5;
-System.out.print("\nThe student average & grade is "+avg+":");
+average = total/5;
+System.out.print("\nThe student average mark is "+average+":");
 
-if(avg>=80)
+if(average>=80)
 { 
-System.out.print("A"); 
+System.out.print("The grade is A"); 
 } 
-else if(avg>=60 && avg<80) 
+else if(average>=60 && average<80) 
 { 
-System.out.print("B"); 
+System.out.print("The grade is B"); 
 } 
-else if(avg>=40 && avg<60) 
+else if(average>=40 && average<60) 
 { 
-System.out.print("C"); 
+System.out.print("The grade is C"); 
 } 
 else 
 { 
-System.out.print("D"); 
+System.out.print("The grade is D"); 
 }
 
 } 
@@ -52,4 +53,4 @@ Enter Marks of Subjects2:70
 Enter Marks of Subjects3:90 
 Enter Marks of Subjects4:85 
 Enter Marks of Subjects5:95 
-The student average & grade is 84.0:A
+The student average mark is 84.0:The grade is A
