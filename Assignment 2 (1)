@@ -17,32 +17,33 @@ Scanner scanner = new Scanner(System.in);
 
 for(i=0; i<5; i++) 
 { 
-System.out.print("\nEnter Marks of Subjects"+(i+1)+":"); 
+System.out.println("\nEnter Marks of Subjects"+(i+1)+":"); 
 
-marks[i] = scanner.nextInt(); total = total + marks[i]; 
+marks[i] = scanner.nextInt(); 
+total = total + marks[i]; 
 }
 scanner.close();
 
 //Calculating average here
 
 average = total/5;
-System.out.print("\nThe student average mark is "+average+":");
+System.out.println("\nThe student average mark is "+average+":");
 
 if(average>=80)
 { 
-System.out.print("The grade is A"); 
+System.out.println("\nThe grade is A"); 
 } 
 else if(average>=60 && average<80) 
 { 
-System.out.print("The grade is B"); 
+System.out.println("\nThe grade is B"); 
 } 
 else if(average>=40 && average<60) 
 { 
-System.out.print("The grade is C"); 
+System.out.println("\nThe grade is C"); 
 } 
 else 
 { 
-System.out.print("The grade is D"); 
+System.out.println("\nThe grade is D"); 
 }
 
 } 
@@ -51,8 +52,13 @@ System.out.print("The grade is D");
 Output: 
 
 Enter Marks of Subjects1:80 
+
 Enter Marks of Subjects2:70 
+
 Enter Marks of Subjects3:90 
+
 Enter Marks of Subjects4:85 
+
 Enter Marks of Subjects5:95 
+
 The student average mark is 84.0:The grade is A
