@@ -28,25 +28,25 @@ monthly_salary =sc.nextInt();
 int age = 2020-yob;				
 int annual_salary = (monthly_salary * 12);	
 			
-if(annual_salary>=500000) 
+if(annual_salary >=500000) 
 {			
 tax_amount= (annual_salary * 20) / 100;	
 System.out.println("\nHello, " +name+ " , Your age is " + age + ", annual salary is " +annual_salary+ ", and Tax amount is "+ tax_amount);		
 }		
 
-else if(annual_salary>=400000) 
+else if(annual_salary >=400000) 
 {			
 tax_amount= (annual_salary * 15) / 100;			
 System.out.println("\nHello, " +name+ " , Your age is " + age + ", annual salary is " +annual_salary+ ", and Tax amount is "+ tax_amount);		
 }		
 
-else if(annual_salary>=300000) 
+else if(annual_salary >=300000) 
 {			
 tax_amount= (annual_salary * 10) / 100;			
 System.out.println("\nHello, " +name+ " , Your age is " + age + ", annual salary is " +annual_salary+ ", and Tax amount is "+ tax_amount);		
 }		
 
-else if(annual_salary>=200000) 
+else if(annual_salary >=200000) 
 {			
 tax_amount= (annual_salary * 5) / 100;			
 System.out.println("\nHello, " +name+ " , Your age is " + age + ", annual salary is " +annual_salary+ ", and Tax amount is "+ tax_amount);	
@@ -61,9 +61,9 @@ System.out.println("\nHello, " +name+ " , Your age is " + age + ", annual salary
 
 Output:
 
-Enter Your name:Farzana
-Enter Your Date of birth:13
-Enter Your Month of birth in number from 1 to 12:05
-Enter Your Year of birth in number:1997
-Enter Your Monthly Salary:25,000
+Enter Your name: Farzana
+Enter Your Date of birth: 13
+Enter Your Month of birth in number from 1 to 12: 05
+Enter Your Year of birth in number: 1997
+Enter Your Monthly Salary: 25,000
 Hello, Farzana , Your age is 23, annual salary is 300000, and Tax amount is 30000
